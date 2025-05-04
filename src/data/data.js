@@ -1,3 +1,9 @@
+import project1 from "../assets/images/projectimg/projects1.png";
+import project2 from "../assets/images/projectimg/projects2.png";
+import project3 from "../assets/images/projectimg/projects3.png";
+import project4 from "../assets/images/projectimg/projects4.jpg";
+import myphoto from "../assets/images/myphoto1.png";
+
 export const navlink = [
   {
     url: "/",
@@ -37,73 +43,44 @@ export const about = [
     desc: "I am a highly motivated and passionate individual who enjoys creating and improving things. I have a strong interest in designing and building solutions that make life easier and more enjoyable for others. Although I don’t have professional experience yet, I am always eager to learn and grow. I believe that my creativity, problem-solving skills, and determination to succeed make me a great addition to any team.",
     desc1:
       "I am excited to start my career and contribute to meaningful projects where I can make a positive impact.",
-    cover: "./images/myphoto1.png",
+    cover: myphoto,
   },
 ];
 
 export const project = [
   {
     id: 1,
-    cover: "../images/projectimg/projects1.png",
-    category: "Latest ",
+    cover: project1,
+    category: "Latest",
     name: "Brand",
     title: "BookShopOnline",
-    link: "https://khbookshop.netlify.app/",
+    link: "https://online-book-store-sand.vercel.app/",
   },
   {
     id: 2,
-    cover: "../images/projectimg/projects2.png",
-    category: "Current",
+    cover: project2,
+    category: "Old",
     name: "Brand",
     title: "FoodStore",
-    link: "https://khfoodstore.netlify.app/",
+    link: "https://food-store-tau-one.vercel.app/",
   },
   {
     id: 3,
-    cover: "../images/projectimg/port6.jpg",
-    category: "Old",
+    cover: project3,
+    category: "Current",
     name: "Brand",
     title: "EcommerceStore",
-    link: "",
+    link: "https://e-commerce-iota-five-40.vercel.app/",
+  },
+  {
+    id: 4,
+    cover: project4,
+    category: "Latest",
+    name: "Brand",
+    title: "Habit-Tracker",
+    link: "https://habit-tracker-umber-zeta.vercel.app/",
   },
 ];
-export const cv = {
-  education: [
-    {
-      title: "ROYAL UNIVERSITY OF PHNOM PENH (RUPP)",
-      year: "2023 - Present",
-      description:
-        " Scholarship Student in Bachelor of Science in Computer Science",
-    },
-    {
-      title: "CAM-ASEAN",
-      year: "2023 - 2024",
-      description: "Chinese Program",
-    },
-    {
-      title: "BELTEI INTERNATIONAL SCHOOL",
-      year: "2015 - 2022",
-      description: "Graduated both Khmer and English at BELTEI.",
-    },
-  ],
-
-  profile:
-    "Motivated student passionate about programming and new technology. Fast learner with problem-solving skills, able to work independently or in a team. Open to learning and seeking practical experience in a company that values innovation and collaboration.",
-  experience: [
-    {
-      skills: "BookShopOnline",
-    },
-    {
-      skills: "FoodStore",
-    },
-    {
-      skills: "EcommerceStore",
-    },
-    {
-      skills: "Portfolio",
-    },
-  ],
-};
 
 export const contact = [
   {
